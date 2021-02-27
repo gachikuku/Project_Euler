@@ -20,6 +20,7 @@ def fib(n):
     else: return fib(n-1) + fib(n-2)
 
 
+#Here an arbitary large number is used to initiate for loop.
 for i in range (1,999999):
 
     if fib(i) > 4000000: break 
