@@ -1,4 +1,4 @@
-#!/usr/bin/env python3 
+#!/usr/bin/env python3
 
 """
 Even Fibonacci numbers
@@ -14,18 +14,17 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 total = 0
 
 def fib(n):
-    
+
     if n == 1: return 1
-    elif n == 2: return 1 
+    elif n == 2: return 1
     else: return fib(n-1) + fib(n-2)
 
 
 #Here an arbitary large number is used to initiate for loop.
 for i in range (1,999999):
 
-    if fib(i) > 4000000: break 
+    if fib(i) > 4000000: break
     if fib(i)%2 == 0: total += fib(i)
 
 
 print(total)
-

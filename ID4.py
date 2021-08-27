@@ -15,8 +15,8 @@ multiples = []
 palindrome_numbers = []
 
 
-for k in first_number: 
-    
+for k in first_number:
+
     for q in second_number:
 
         multiples.append(k*q)
