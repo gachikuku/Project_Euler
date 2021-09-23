@@ -21,5 +21,129 @@ for i in data:
             i.remove(j)
             i.append(26)
 
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        if j == "Z":
+
+            i.remove(j)
+            i.append(26)
+
+        elif j == "Z":
+
+            i.remove(j)
+            i.append(26)
 
 print(data)
