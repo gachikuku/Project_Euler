@@ -65,14 +65,14 @@ int main(){
                 " " << q_sum(n, i, A) << endl;
             }
             
+            n++;
+            
             if (isPrime(q_sum(n,i,A))==false){
                 
                 n = 0;
                 
                 break;
             }
-            
-            n++;
         }
     }
 
