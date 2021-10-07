@@ -1,2 +1,2 @@
 # Project_Euler
-My solutions using python3 for solving the first 100 problems from https://projecteuler.net/
+My solutions (in python and c++) the first 100 problems from https://projecteuler.net/
