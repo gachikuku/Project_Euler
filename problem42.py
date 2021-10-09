@@ -1,8 +1,8 @@
-x = eval("[" + open("words.txt").readlines()[0] + "]")
+word_list = eval("[" + open("words.txt").readlines()[0] + "]")
 
 
 
-def tri(n) -> bool:
+def isTri(n) -> bool:
 
     suma = 0
 
@@ -20,15 +20,15 @@ def tri(n) -> bool:
 
 total = 0
 
-for i in x:
+for word in word_list:
 
     word_sum = 0
     
-    for j in i:
+    for letter in word:
     
-        word_sum += ord(j) - 64
+        word_sum += ord(letter) - 64
         
-    if tri(word_sum): total += 1
+    if isTri(word_sum): total += 1
     
     
     
