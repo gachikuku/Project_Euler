@@ -41,7 +41,11 @@ int main(){
 
     long ans, c = 0;
     
-    for(long x = 3; x <= 100000; x++){
+    upper_lim = fact(9);
+    
+    // 7 * 9999999 > 9! * 7 
+    
+    for(long x = 3; x <= upper_lim; x++){
     
         for (auto i: digits(x)){
     
@@ -51,8 +55,6 @@ int main(){
         if (c == x){
     
             ans += x;
-    
-            cout << x << endl;
         }
     
         c = 0;
