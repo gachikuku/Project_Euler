@@ -12,16 +12,14 @@ void solve(){
     
 	ll ans = 1;
 	
-	for (ll i = 1; i<= 7830457; ++i){
+	for (ll i = 1; i <= 7830457; i++){
 	
 	    ans = (ans * 2) % mod;
 	}
 	
 	ans = (ans * 28433) % mod;
-	
-	ans++;
 
-	cout<<ans<<"\n";
+	cout<<ans+1<<"\n";
 }
 
 
