@@ -8,21 +8,21 @@ def isPalindrome(n: int) -> bool:
 
 def b2(n: int) -> str:
 
-    b= []
+    b = []
     
-    while(n>0):
+    while n > 0:
     
-        d=n%2
+        d = n % 2
         
         b.append(str(d))
         
-        n=n//2
+        n = n//2
         
     b.reverse()
     
     s = "".join(b)
     
-    return  s
+    return s
     
     
     
