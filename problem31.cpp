@@ -16,9 +16,9 @@ void solve(){
     
     for (int coin=0; coin<8; coin++){
     
-        for (int n=0; n+coins[coin]<=N; n++){
+        for (int i=0; i+coins[coin]<=N; i++){
         
-            ways[n+coins[coin]] += ways[n];
+            ways[i+coins[coin]] += ways[i];
         }
     }
     
